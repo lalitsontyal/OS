@@ -30,8 +30,8 @@ if(newline=strchr(fline, „\n‟))
 if(strstr(fline,argv[2])!=NULL)
 {
 printf(“%s: %d %s \n”, argv[1],count, fline);
-14 | P a g e
 occurrences++;
 }
 }
+  return 0;
 }
